@@ -18,13 +18,17 @@
             background-color: #632222;
             padding: 1em;
         }
-        
-        nav a {
-            margin-right: 10px;
+        nav li{
+            list-style-type: disc;
+            display: inline;
+            margin-right: 50px;
+        }
+        nav li:hover{
+            background-color: #a83232;
+        }
+        nav li a{
             text-decoration: none;
-            text-align: right;
-            color :aquamarine
-
+             color: yellowgreen;
         }
         main {
             padding: 2em;
@@ -42,9 +46,11 @@
 <body>
     <header>
         <nav>
-            <a href="first_hw.html">Home</a>
-            <a href="first_hw.html#audio">Audio</a>
-            <a href="https://en.wikipedia.org/wiki/Under_Pressure">Wiki</a>
+            <ul>
+                <li><a href="first_hw.html">Home</a></li>
+                <li><a href="first_hw.html#audio">Audio</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Under_Pressure">Wiki</a></li>
+            </ul>
         </nav>
     </header>
     <main>
